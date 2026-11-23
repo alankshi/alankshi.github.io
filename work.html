@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Alan Shi's personal website." />
+        <title>Work - Alan Shi</title>
+        <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+        <link rel="stylesheet" href="./stylesheet.css" />
+    </head>
+    <body>
+        <header class="home-header">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="work.html">Work</a>
+                <a href="projects.html">Projects</a>
+                <a href="papers.html">Papers</a>
+            </nav>
+        </header>
+
+        <main>
+            <h1>Work</h1>
+            <p><a href="Alan_Shi_resume.pdf">Resume</a></p>
+
+            <h2>Software Engineer Intern</h2>
+            SingleStore · May 2026 – August 2026
+            <p style="padding-bottom: 0.5em">
+                Built an independently scalable C++ and Go gRPC service that
+                moved LSM-tree merge jobs off the main cluster, increasing query
+                throughput by 48.9% under heavy ingest and join load. Redesigned
+                the merge path to stream output instead of staging full segments,
+                allowing it to run with 8 GB of in-memory storage per pod.
+            </p>
+
+            <h2>Telemetry Team Lead</h2>
+            Illini Solar Car · August 2024 – Present
+            <p style="padding-bottom: 0.5em">
+                Lead 25 engineers across five divisions and raised semester-to-semester
+                retention from 50% to 67% by improving documentation and adopting a
+                GitHub Projects Kanban board. Built a real-time telemetry system
+                that processes over 100,000 messages per minute via MQTT and
+                QuestDB, with sub-second latency on live race dashboards.
+            </p>
+
+            <h2>Undergraduate Researcher</h2>
+            CreateLab (UIUC) · August 2026 – Present
+            <p style="padding-bottom: 0.5em">
+                Research ways to accelerate serverless Python functions as part
+                of the Kishu project. Develop a caching mechanism that
+                pre-initializes function dependencies to reduce startup latency.
+            </p>
+
+            <h2>Machine Learning Intern</h2>
+            Panasonic North America · June 2025 – February 2026
+            <p style="padding-bottom: 0.5em">
+                Cut LLM agent token usage by 20% with structured outputs and
+                retrieval-augmented generation while maintaining performance
+                across three benchmarks. Built human-in-the-loop agents for data
+                processing and developed an AutoML feature for predictive
+                maintenance and time-series forecasting.
+            </p>
+
+            <h2>Machine Learning Intern</h2>
+            Hill Research · June 2024 – February 2025
+            <p style="padding-bottom: 0.5em">
+                Co-authored CSLAN, a study on transferring cell-type classifiers
+                across species using single-cell RNA sequencing data. Trained a
+                PyTorch classifier that achieved 98% macro accuracy on imbalanced
+                data and used feature selection to reduce more than 13,000
+                features to 1,000.
+            </p>
+        </main>
+    </body>
+</html>
