@@ -1,3 +1,20 @@
+body {
+  background-color: white;
+}
+
+.face-background-visible {
+  isolation: isolate;
+}
+
+.face-background-visible::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  opacity: var(--face-opacity);
+  background: url("./my-face.jpg") center / 100% 100% no-repeat;
+}
+
 h1, h2, h3, h4, h5, h6 {
   padding-bottom: 0;
   margin-bottom: 0;
@@ -40,6 +57,14 @@ main h1 {
   justify-self: stretch;
   /* The fingertip is about 22% of the photo's width down from the top. */
   padding-top: max(0px, calc(var(--portrait-width) * 0.22 - 1.1rem));
+}
+
+.home-intro__photo-button {
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+  touch-action: manipulation;
 }
 
 .home-intro__photo {

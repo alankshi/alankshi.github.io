@@ -7,6 +7,7 @@
         <title>Alan Shi</title>
         <link rel="icon" href="./favicon.ico" type="image/x-icon" />
         <link rel="stylesheet" href="./stylesheet.css" />
+        <script src="./face-background.js" defer></script>
     </head>
     <body>
         <header class="home-header">
@@ -42,13 +43,20 @@
                     >
                 </footer>
             </div>
-            <img
-                class="home-intro__photo"
-                src="./me.jpg"
-                alt="Me pointing to the left."
-                width="828"
-                height="1278"
-            />
+            <button
+                class="home-intro__photo-button"
+                type="button"
+                aria-label="Pointing portrait: activate five times within two seconds to reveal the background"
+            >
+                <img
+                    class="home-intro__photo"
+                    src="./me.jpg"
+                    alt="Me pointing to the left."
+                    width="828"
+                    height="1278"
+                />
+            </button>
         </main>
+
     </body>
 </html>
