@@ -9,6 +9,11 @@ main {
   margin-inline: auto;
 }
 
+.site-footer {
+  margin-block-start: 2rem;
+  font-size: 0.875rem;
+}
+
 .home-header nav {
   display: flex;
   flex-wrap: wrap;
