@@ -59,16 +59,9 @@ main h1 {
   padding-top: max(0px, calc(var(--portrait-width) * 0.22 - 1.1rem));
 }
 
-.home-intro__photo-button {
-  padding: 0;
-  border: 0;
-  background: none;
-  cursor: pointer;
-  touch-action: manipulation;
-}
-
 .home-intro__photo {
   display: block;
   width: 100%;
   height: auto;
+  touch-action: manipulation;
 }
